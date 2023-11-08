@@ -1,0 +1,13 @@
+<!-- task-detail.component.html -->
+<div class="task-detail">
+    <h2>Task Details</h2>
+    <div *ngIf="task">
+      <h3>Title: {{ task.title }}</h3>
+      <p>Description: {{ task.description }}</p>
+      <p>Completed: {{ task.completed ? 'Yes' : 'No' }}</p>
+    </div>
+    <div *ngIf="!task">
+      <p>No task selected.</p>
+    </div>
+  </div>
+  

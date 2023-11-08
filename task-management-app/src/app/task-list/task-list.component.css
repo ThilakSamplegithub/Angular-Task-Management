@@ -1,0 +1,8 @@
+.task-list ul li{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.task-list ul li a{
+    text-decoration: none;
+}
